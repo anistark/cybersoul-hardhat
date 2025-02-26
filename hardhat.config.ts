@@ -5,7 +5,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const config: HardhatUserConfig = {
-  solidity: "0.8.19",
+  solidity: "0.8.22",
   networks: {
     baseSepolia: {
       url: "https://sepolia.base.org",
